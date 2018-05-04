@@ -5,8 +5,8 @@
 
 ### YOUR CODE FOR cumulative_marks() FUNCTION GOES HERE ###
 def cumulative_marks(string):
-    """this helps you to sum the marks or salary of whole month , year.firstly it gives the roll_nmb or serial_nmb.then on 
-    second position it gives the name of student of worker at last it gives marks or salary in this it  run""" 
+	"""This function change format of roll_number then read the name of student and 
+	at last add the number of student.After that it append all data into new list """
     lst =[]
     lst1 = []
     d_marks = {}
@@ -46,3 +46,4 @@ if __name__ == '__main__':
 
 #    print cumulative_marks(results)
     # output: [('10P-1111', 'Muhammad Amin', 355.5), ('10P-1112', 'Tehseen Khan', 201.5), ('10P-1113', 'Tauqeer Ali', 88.6)]
+
